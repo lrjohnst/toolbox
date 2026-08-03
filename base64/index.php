@@ -43,7 +43,7 @@ if (isset($_POST['encode_or_decode'])) {
 <div class="container">
     <h1>Base64 Encode / Decode</h1>
     <p>Enter your string to encode or decode and hit submit.</p>
-    <form action="/" method="post">
+    <form action="/base64/" method="post">
         <div class="form-row">
             <label for="to_encode">Input string:</label>
             <textarea id="to_encode" name="to_encode" rows="8"><?php echo htmlspecialchars($to_encode); ?></textarea>

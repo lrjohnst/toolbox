@@ -47,7 +47,7 @@ if (isset($_POST['encode_or_decode'])) {
 <div class="container">
     <h1>OpenSSL Encrypt / Decrypt</h1>
     <p>Enter your string to encrypt or decrypt and hit submit.</p>
-    <form action="/" method="post">
+    <form action="/openssl-encrypt/" method="post">
         <div class="form-row">
             <label for="encryption_cipher">Encryption cipher:</label>
             <select name="encryption_cipher" id="encryption_cipher">

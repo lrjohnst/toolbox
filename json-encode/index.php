@@ -58,7 +58,7 @@ if (isset($_POST['to_encode']) && $_POST['to_encode'] !== "") {
 <div class="container">
     <h1>JSON Prettify</h1>
     <p>Paste your JSON to get a formatted, readable version.</p>
-    <form action="/" method="post">
+    <form action="/json-encode/" method="post">
         <div class="form-row">
             <label for="to_encode">JSON input:</label>
             <textarea id="to_encode" name="to_encode" rows="10"><?php echo htmlspecialchars($to_encode); ?></textarea>
