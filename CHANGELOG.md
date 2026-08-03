@@ -4,6 +4,14 @@
 
 ## 2026-08-03
 
+### Nieuwe tool: Markup Preview
+
+- `/markup` toegevoegd: plak Markdown-tekst en krijg een mooi geformatteerde preview terug
+- Server-side rendering via Parsedown 1.7.4 (gevendored, geen dependencies)
+- Safe mode aan: raw HTML wordt ge-escaped (XSS-bescherming)
+- Ondersteunt koppen, lijsten, tabellen, code blocks, blockquotes, links, etc.
+- Nav-link en tool-card toegevoegd aan alle pagina's
+
 ### Bugfix: 405 Not Allowed bij formulier-submit
 
 - Form action van alle drie de tools wees nog naar `/` (correct toen het subdomeinen waren, maar kapot na consolidatie naar submappen). POST naar `/` gaf 405 Not Allowed.

@@ -39,6 +39,7 @@ if (isset($_POST['encode_or_decode'])) {
     <a href="/base64" class="active">Base64</a>
     <a href="/json-encode">JSON</a>
     <a href="/openssl-encrypt">OpenSSL</a>
+    <a href="/markup">Markup</a>
 </nav>
 <div class="container">
     <h1>Base64 Encode / Decode</h1>

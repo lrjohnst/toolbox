@@ -54,6 +54,7 @@ if (isset($_POST['to_encode']) && $_POST['to_encode'] !== "") {
     <a href="/base64">Base64</a>
     <a href="/json-encode" class="active">JSON</a>
     <a href="/openssl-encrypt">OpenSSL</a>
+    <a href="/markup">Markup</a>
 </nav>
 <div class="container">
     <h1>JSON Prettify</h1>
